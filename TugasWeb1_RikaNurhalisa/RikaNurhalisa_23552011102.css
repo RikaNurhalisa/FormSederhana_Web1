@@ -1,0 +1,118 @@
+/* Selector Elemen */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d1e8ff; /* Warna latar belakang formulir */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Penambahan: Style untuk judul utama "Pendaftaran Event Kampus" */
+h1 {
+  font-size: 1.8em;
+  margin-top: 40px; /* Jarak dari atas halaman */
+  margin-bottom: 20px; /* Jarak ke kotak formulir */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Selector ID */
+#RikaNurhalisa_23552011102 {
+  background: #ffffff;
+  padding: 25px 30px; /* Padding ditingkatkan sedikit */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow lebih menonjol agar seperti kartu */
+  width: 90%;
+  max-width: 400px;
+  margin-top: 0; /* h1 sudah mengatur margin atas */
+  margin-bottom: 30px; /* Memberi ruang di bawah form sebelum footer */
+}
+
+/* Selector Class */
+.error {
+  color: #dc3545; /* Warna merah error yang standar */
+  font-size: 0.8em; /* Ukuran font lebih kecil dari sebelumnya */
+  margin-top: 4px; /* Jarak kecil dari input yang error */
+  margin-bottom: 0px; /* Tidak ada margin bawah agar lebih rapat ke label berikutnya */
+  display: block;
+}
+
+/* Tambahan: Class untuk memberikan border merah pada input/select yang error */
+.input-error {
+  border: 1px solid #dc3545 !important;
+}
+
+label {
+  display: block;
+  margin-top: 15px; /* Jarak antar field yang lebih lebar, sesuai gambar */
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 0.95em; /* Ukuran label sedikit diperkecil */
+}
+
+input:not([type="checkbox"]),
+select {
+  width: 100%;
+  padding: 10px 12px; /* Padding input/select disesuaikan */
+  margin-top: 8px; /* Jarak antara label dan input */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  /* Mengatur ulang font select agar terlihat seperti input */
+  font-size: 1em; 
+  color: #333;
+  appearance: none; /* Menghapus default style select di beberapa browser */
+}
+
+/* Styling khusus untuk dropdown arrow pada <select> */
+select {
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%20197.9c-3.2%203.2-7.8%204.4-11.8%204.4s-8.6-1.2-11.8-4.4L146.2%2084.7l-117.2%20113.2c-3.2%203.2-7.8%204.4-11.8%204.4s-8.6-1.2-11.8-4.4c-6.4-6.4-6.4-17%200-23.4l129-124.9c3.2-3.2%207.8-4.4%2011.8-4.4s8.6%201.2%2011.8%204.4l129%20124.9c6.4%206.4%206.4%2017%200%2023.4z%22%2F%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  padding-right: 30px; /* Memberi ruang untuk panah */
+}
+
+/* Style untuk Checkbox container */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  margin-top: 20px; /* Jarak lebih besar sebelum checkbox */
+  margin-bottom: 0;
+  font-size: 0.95em;
+}
+
+.checkbox-container input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+  margin-top: 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px; /* Padding tombol sedikit lebih besar */
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.05em; /* Ukuran font tombol lebih besar */
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  margin-top: auto;
+  padding: 10px;
+  color: #555;
+  font-size: 0.85em; /* Ukuran font footer sedikit diperkecil */
+  text-align: center;
+}

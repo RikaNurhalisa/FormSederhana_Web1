@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pendaftaran Event Kampus</title>
+  <link rel="stylesheet" href="RikaNurhalisa_23552011102.css" />
+</head>
+<body>
+    <h1>Pendaftaran Event Kampus</h1>
+
+  <form id="RikaNurhalisa_23552011102" novalidate>
+    <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" />
+    <small class="error" id="error-nama"></small>
+
+    <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email aktif" />
+    <small class="error" id="error-email"></small>
+
+    <label for="nim">NIM</label>
+        <input type="text" id="nim" name="nim" placeholder="Masukkan NIM" />
+    <small class="error" id="error-nim"></small>
+
+    <label for="telepon">No Telephon/Whatsapp</label>
+        <input type="text" id="telepon" name="telepon" placeholder="Masukkan no tlp/WA" />
+    <small class="error" id="error-telepon"></small>
+
+    <label for="universitas">Universitas</label>
+    <select id="universitas" name="universitas">
+      <option value="">-- Pilih Universitas --</option>
+      <option value="UTB">Universitas Teknologi Bandung</option>
+      <option value="ITB">Institut Teknologi Bandung</option>
+      <option value="UNPAD">Universitas Padjadjaran</option>
+    </select>
+    <small class="error" id="error-universitas"></small>
+
+    <label for="prodi">Program Studi</label>
+    <select id="prodi" name="prodi">
+      <option value="">-- Pilih Program Studi --</option>
+      <option value="TIF">Teknik Informatika</option>
+      <option value="TI">Teknik Industri</option>
+      <option value="DKV">Desain Komunikasi Visual</option>
+      <option value="BD">Bisnis Digital</option>
+      <option value="MR">Manajemen Ritel</option>
+    </select>
+    <small class="error" id="error-prodi"></small>
+
+                <label class="checkbox-container">
+      <input type="checkbox" id="setuju" name="setuju" />
+      Saya setuju dengan syarat dan ketentuan
+    </label>
+    <small class="error" id="error-setuju"></small>
+
+    <button type="submit">Kirim</button>
+  </form>
+
+  <footer>
+        <p>© 2025 - Dibuat oleh Rika Nurhalisa</p>
+  </footer>
+
+  <script src="RikaNurhalisa_23552011102.js"></script>
+</body>
+</html>
